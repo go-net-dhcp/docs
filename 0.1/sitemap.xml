@@ -4,4 +4,28 @@
          <loc>https://go-net-dhcp.github.io/docs/0.1/</loc>
          <lastmod>2026-07-07</lastmod>
     </url>
+    <url>
+         <loc>https://go-net-dhcp.github.io/docs/0.1/api/</loc>
+         <lastmod>2026-07-07</lastmod>
+    </url>
+    <url>
+         <loc>https://go-net-dhcp.github.io/docs/0.1/contributing/</loc>
+         <lastmod>2026-07-07</lastmod>
+    </url>
+    <url>
+         <loc>https://go-net-dhcp.github.io/docs/0.1/metrics/</loc>
+         <lastmod>2026-07-07</lastmod>
+    </url>
+    <url>
+         <loc>https://go-net-dhcp.github.io/docs/0.1/roadmap/</loc>
+         <lastmod>2026-07-07</lastmod>
+    </url>
+    <url>
+         <loc>https://go-net-dhcp.github.io/docs/0.1/server/</loc>
+         <lastmod>2026-07-07</lastmod>
+    </url>
+    <url>
+         <loc>https://go-net-dhcp.github.io/docs/0.1/wire-format/</loc>
+         <lastmod>2026-07-07</lastmod>
+    </url>
 </urlset>

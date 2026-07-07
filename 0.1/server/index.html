@@ -10,22 +10,28 @@
       
       
       
+        <link rel="canonical" href="https://go-net-dhcp.github.io/docs/0.1/server/">
       
       
+        <link rel="prev" href="../wire-format/">
       
-      <link rel="icon" href="/docs/0.1/assets/logo.svg">
+      
+        <link rel="next" href="../metrics/">
+      
+      
+      <link rel="icon" href="../assets/logo.svg">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.49">
     
     
       
-        <title>go-net-dhcp docs</title>
+        <title>The Linux server - go-net-dhcp docs</title>
       
     
     
-      <link rel="stylesheet" href="/docs/0.1/assets/stylesheets/main.6f8fc17f.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.6f8fc17f.min.css">
       
         
-        <link rel="stylesheet" href="/docs/0.1/assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -44,7 +50,7 @@
       
     
     
-    <script>__md_scope=new URL("/docs/0.1",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -69,6 +75,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#the-linux-server" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -85,9 +96,9 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="/docs/0.1/." title="go-net-dhcp docs" class="md-header__button md-logo" aria-label="go-net-dhcp docs" data-md-component="logo">
+    <a href=".." title="go-net-dhcp docs" class="md-header__button md-logo" aria-label="go-net-dhcp docs" data-md-component="logo">
       
-  <img src="/docs/0.1/assets/logo.svg" alt="logo">
+  <img src="../assets/logo.svg" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -104,7 +115,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              
+              The Linux server
             
           </span>
         </div>
@@ -229,9 +240,9 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="/docs/0.1/." title="go-net-dhcp docs" class="md-nav__button md-logo" aria-label="go-net-dhcp docs" data-md-component="logo">
+    <a href=".." title="go-net-dhcp docs" class="md-nav__button md-logo" aria-label="go-net-dhcp docs" data-md-component="logo">
       
-  <img src="/docs/0.1/assets/logo.svg" alt="logo">
+  <img src="../assets/logo.svg" alt="logo">
 
     </a>
     go-net-dhcp docs
@@ -258,7 +269,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/docs/0.1/." class="md-nav__link">
+      <a href=".." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -278,7 +289,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/docs/0.1/api/" class="md-nav__link">
+      <a href="../api/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -298,7 +309,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/docs/0.1/wire-format/" class="md-nav__link">
+      <a href="../wire-format/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -315,10 +326,30 @@
       
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="/docs/0.1/server/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    The Linux server
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -327,6 +358,53 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#binding" class="md-nav__link">
+    <span class="md-ellipsis">
+      Binding
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-receive-loop" class="md-nav__link">
+    <span class="md-ellipsis">
+      The receive loop
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#testing-to-the-socket-the-syscall-seam" class="md-nav__link">
+    <span class="md-ellipsis">
+      Testing to the socket — the syscall seam
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -338,7 +416,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/docs/0.1/metrics/" class="md-nav__link">
+      <a href="../metrics/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -358,7 +436,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/docs/0.1/roadmap/" class="md-nav__link">
+      <a href="../roadmap/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -378,7 +456,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/docs/0.1/contributing/" class="md-nav__link">
+      <a href="../contributing/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -408,6 +486,43 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#binding" class="md-nav__link">
+    <span class="md-ellipsis">
+      Binding
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-receive-loop" class="md-nav__link">
+    <span class="md-ellipsis">
+      The receive loop
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#testing-to-the-socket-the-syscall-seam" class="md-nav__link">
+    <span class="md-ellipsis">
+      Testing to the socket — the syscall seam
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -419,8 +534,63 @@
             <div class="md-content" data-md-component="content">
               <article class="md-content__inner md-typeset">
                 
-  <h1>404 - Not found</h1>
+                  
 
+
+<h1 id="the-linux-server">The Linux server<a class="headerlink" href="#the-linux-server" title="Permanent link">&para;</a></h1>
+<p><code>LinuxServer</code> is the real UDP/67 DHCPv4 server. It only builds on Linux
+(<code>//go:build linux</code>); other platforms get a stub that returns a "linux-only"
+error from the constructor.</p>
+<h2 id="binding">Binding<a class="headerlink" href="#binding" title="Permanent link">&para;</a></h2>
+<p>The socket is constructed by hand (rather than via <code>net.ListenUDP</code>) so the server
+can set three socket options before the kernel commits the binding:</p>
+<ul>
+<li><strong><code>SO_REUSEADDR</code></strong> — restart without a <code>TIME_WAIT</code> bind conflict.</li>
+<li><strong><code>SO_BROADCAST</code></strong> — the reply goes to <code>255.255.255.255:68</code>.</li>
+<li><strong><code>SO_BINDTODEVICE</code></strong> (the <code>Interface</code> in <code>Options</code>) — only frames arriving on
+  that NIC / bridge / VLAN reach the socket, and replies leave the same path.
+  This is what makes it safe to serve DHCP on one segment of a multi-homed host.
+  It requires <code>CAP_NET_RAW</code> (run as root or grant the capability via systemd).</li>
+</ul>
+<p>The raw fd is then handed to the <code>os</code>/<code>net</code> stack (<code>os.NewFile</code> +
+<code>net.FilePacketConn</code>) so the receive loop gets <code>ReadFromUDP</code> / <code>WriteToUDP</code>
+ergonomics and the runtime poller.</p>
+<h2 id="the-receive-loop">The receive loop<a class="headerlink" href="#the-receive-loop" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nx">srv</span><span class="p">,</span><span class="w"> </span><span class="nx">_</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="nx">dhcp</span><span class="p">.</span><span class="nx">NewLinuxServer</span><span class="p">(</span><span class="nx">opts</span><span class="p">)</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="nx">err</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="nx">srv</span><span class="p">.</span><span class="nx">Run</span><span class="p">(</span><span class="nx">ctx</span><span class="p">)</span>
+</code></pre></div>
+<p><code>Run</code> binds, then loops: <code>ReadFromUDP</code> → <code>Parse</code> → <code>Decide</code> → send. Transient
+problems (a malformed packet, an unknown MAC) are logged and the loop continues;
+only a socket-fatal error breaks out. Cancelling <code>ctx</code> closes the socket, which
+unblocks the read and returns <code>ctx.Err()</code>.</p>
+<p>Replies are always broadcast in this version — it reaches every switch and does
+not depend on the client already having ARP'd the server. <code>SO_BINDTODEVICE</code>
+keeps the broadcast on the right NIC.</p>
+<p>Logging goes through <code>log/slog</code>; swap the logger with <code>SetLogger</code>.</p>
+<h2 id="testing-to-the-socket-the-syscall-seam">Testing to the socket — the syscall seam<a class="headerlink" href="#testing-to-the-socket-the-syscall-seam" title="Permanent link">&para;</a></h2>
+<p>Reaching 100% coverage of a socket server usually means "skip in CI without
+root". This library avoids that: the six raw calls <code>listen</code> makes — <code>socket</code>,
+<code>setsockopt</code> (int and string), <code>bind</code>, <code>close</code>, and fd-adoption — sit behind an
+injectable seam. Tests substitute fakes to drive <strong>every</strong> error branch (each
+<code>setsockopt</code> failure, the bind failure, the fd-adoption failure, the
+unexpected-conn-type branch) and the full receive → decide → send loop, all
+without <code>CAP_NET_RAW</code>. The production seam wires straight to <code>golang.org/x/sys/unix</code>
+and is itself exercised against a real ephemeral loopback socket.</p>
+<p>The result: the coverage gate holds at 100% on the ordinary GitHub <code>ubuntu</code>
+runner, including the socket code.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
               </article>
             </div>
           
@@ -460,10 +630,10 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "/docs/0.1", "features": ["navigation.sections", "navigation.top", "navigation.instant", "content.code.copy", "search.suggest"], "search": "/docs/0.1/assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"default": "latest", "provider": "mike"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.sections", "navigation.top", "navigation.instant", "content.code.copy", "search.suggest"], "search": "../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"default": "latest", "provider": "mike"}}</script>
     
     
-      <script src="/docs/0.1/assets/javascripts/bundle.88dd0f4e.min.js"></script>
+      <script src="../assets/javascripts/bundle.88dd0f4e.min.js"></script>
       
     
   </body>
