@@ -1,0 +1,62 @@
+site_name: go-net-dhcp docs
+site_description: "A small, dependency-free DHCPv4 server library in pure Go (RFC 2131/2132 wire codec + Linux SO_BINDTODEVICE UDP/67 server), no cgo."
+site_url: https://go-net-dhcp.github.io/docs/
+repo_url: https://github.com/go-net-dhcp
+repo_name: go-net-dhcp
+edit_uri: ""
+
+theme:
+  name: material
+  logo: assets/logo.svg
+  favicon: assets/logo.svg
+  features:
+    - navigation.sections
+    - navigation.top
+    - navigation.instant
+    - content.code.copy
+    - search.suggest
+  palette:
+    # System default (follows the OS preference), then explicit light and dark.
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+
+extra:
+  version:
+    provider: mike
+    default: latest
+
+nav:
+  - Home: index.md
+  - Usage & API: api.md
+  - Wire format & decision core: wire-format.md
+  - The Linux server: server.md
+  - Metrics: metrics.md
+  - Roadmap: roadmap.md
+  - Contributing: contributing.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
